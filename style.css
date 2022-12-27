@@ -1,0 +1,257 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Commissioner:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Changa One', cursive;
+    font-family: 'Commissioner', sans-serif;
+
+}
+
+.hero-section {
+    background-image: url("./assets/the-lords-of-the-fallen-ac.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.bi-headset {
+
+    font-size: 30px;
+    color: rgb(255, 255, 0);
+}
+
+
+
+.logo {
+    background-color: rgba(255, 255, 255, 0.075);
+    height: 90px;
+    width: 90px;
+    border-radius: 00px 0px 60px 60px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav ul {
+    width: 480px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+nav li {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(66, 61, 61, 0.368);
+    border-radius: 60%;
+}
+
+nav li:hover {
+    color: yellow;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+#list {
+    display: none;
+}
+
+.main-hero-section {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0 130px;
+
+}
+
+h3 {
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: 400;
+    background-color: rgba(61, 73, 134, 0.595);
+    color: rgb(255, 0, 255);
+}
+
+h1 {
+    color:white;
+    font-size: 80px;
+    font-weight: 800;
+    padding: 10px 0;
+    line-height: 90px;
+    
+}
+
+.main-hero-section span {
+    color: rgb(255, 7, 255);
+    font-size: 70px;
+    border-bottom: 5px solid rgb(255, 7, 255);
+}
+
+p {
+    font-size: 18px;
+    color: #efddbfc7;
+    padding: 10px 40px;
+    border-left: 4px solid rgb(255, 7, 255);
+}
+
+.take-btn {
+    padding: 20px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    color: whitesmoke;
+    border: 3px solid rgba(255, 255, 255, 0.395);
+    background: rgb(170, 165, 1);
+    background: linear-gradient(118deg, rgba(170, 165, 1, 1) 27%, rgba(244, 85, 74, 1) 52%, rgba(244, 85, 74, 1) 53%, rgba(134, 2, 127, 1) 79%);
+}
+
+.second-div {
+    width: 500px;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    padding-bottom: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: yellow;
+    justify-content: center;
+    background-color: rgba(3, 0, 4, 0.279);
+}
+
+h2 {
+    font-weight: 400;
+    color: white;
+}
+
+h4 {
+    color: yellow;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media(max-width:768px) {
+
+    nav {
+        padding: 0 10px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    #list {
+        display: block;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .hero-section {
+        background-image: url("./assets/1.jpg");
+        background-position: center;
+        height: 100vh;
+    }
+
+    #list:hover {
+        color: yellow;
+    }
+
+    .main-hero-section {
+         padding: 10px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .main-hero-section span {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 15px;
+        color: rgba(219, 215, 210, 0.801);
+        padding: 15px 10px;
+        border-left: 4px solid rgb(255, 7, 255);
+    }
+
+    .take-btn {
+        padding: 20px 25px;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+        color: whitesmoke;
+        border: 3px solid rgba(255, 255, 255, 0.395);
+        background: rgb(170, 165, 1);
+        background: linear-gradient(118deg, rgba(170, 165, 1, 1) 27%, rgba(244, 85, 74, 1) 52%, rgba(244, 85, 74, 1) 53%, rgba(134, 2, 127, 1) 79%);
+    }
+
+    .second-div {
+        width: 470px;
+        padding: 40px 0 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+    h2 {
+        font-weight: 400;
+        color: white;
+        margin-right: 50px;
+    }
+
+    h4 {
+        color: yellow;
+        font-size: 15px;
+        font-weight: 400;
+        margin-right: 50px;
+    }
+
+}
