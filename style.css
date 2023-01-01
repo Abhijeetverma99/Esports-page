@@ -14,7 +14,7 @@
     background-image: url("./assets/the-lords-of-the-fallen-ac.jpg");
     background-size: cover;
     background-position: top;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@ nav a:hover {
 
 .main-hero-section {
     width: 100%;
-    min-height: 600px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
